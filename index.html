@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body>
+    <div class="faq-container">
+      <span class="icon_star"></span>
+      <h1>FAQs</h1>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          What is Frontend Mentor, and how will it help me?
+          <span class="icon"></span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          Is Frontend Mentor free?
+          <span class="icon"></span>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, Frontend Mentor offers free and premium challenges.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          Can I use Frontend Mentor projects in my portfolio?
+          <span class="icon"></span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Yes, you can use the projects you build on Frontend Mentor in your
+            portfolio to showcase your skills to potential employers.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          How can I get help if I'm stuck on a challenge?
+          <span class="icon"></span>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Frontend Mentor has a community where you can ask for help. You can
+            also refer to the solutions provided by other developers.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
